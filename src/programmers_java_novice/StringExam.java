@@ -1,4 +1,4 @@
-package _01_novice;
+package programmers_java_novice;
 
 public class StringExam {
 
