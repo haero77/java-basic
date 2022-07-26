@@ -1,4 +1,4 @@
-package first_java.ch06;
+package first_java.ch06_OOP_implementation;
 
 /* 생성자 실행 예제 */
 public class Member {

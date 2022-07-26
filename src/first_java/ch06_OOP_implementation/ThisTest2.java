@@ -1,4 +1,4 @@
-package first_java.ch06;
+package first_java.ch06_OOP_implementation;
 
 public class ThisTest2 {
     private String name;
