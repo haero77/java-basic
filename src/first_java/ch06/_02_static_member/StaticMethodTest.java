@@ -15,7 +15,7 @@ public class StaticMethodTest {
             인스턴스 생성 전에 사용가능한 static 메서드에서는 인스턴스 필드와 인스턴스 메서드를 사용할 수 없다.
          */
 
-        int num2 = num; // 오류! : static 메서드에서는 인스턴스 필드 사용 불가능
+//        int num2 = num; // 오류! : static 메서드에서는 인스턴스 필드 사용 불가능
         System.out.println("hello");
     }
 
