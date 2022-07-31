@@ -1,10 +1,9 @@
-package first_java.ch07_inheritatnce;
+package first_java.ch07.inheritance;
 
 public class LMSTest {
     public static void main(String[] args) {
         Employee e = new Employee();
         Professor p = new Professor();
-        Student s = new Student();
 
         e.setName("오정임");
         e.setAge(47);
@@ -14,13 +13,7 @@ public class LMSTest {
         p.setAge(52);
         p.setSubject("빅데이터");
 
-        s.setName("김유빈");
-        s.setAge(20);
-        s.setMajor("컴퓨터과학");
-
-        // 오버라이딩된 메서드 호출
         System.out.println(e.toString());
         System.out.println(p.toString());
-        System.out.println(s.toString());
     }
 }

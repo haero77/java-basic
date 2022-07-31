@@ -1,8 +1,12 @@
-package first_java.ch07_inheritatnce;
+package first_java.ch07;
 
 public class Person { // 부모 클래스
     private String name;
     private int age;
+
+    public Person() {
+        System.out.println("Person 생성자 실행!");
+    }
 
     public String getName() {
         return name;

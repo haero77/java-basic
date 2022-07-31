@@ -1,7 +1,11 @@
-package first_java.ch07_inheritatnce;
+package first_java.ch07;
 
 public class Professor extends Person {
     private String subject;
+
+    public Professor() {
+        System.out.println("Professor 생성자 실행!");
+    }
 
     public String getSubject() {
         return subject;

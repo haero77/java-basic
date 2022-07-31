@@ -1,7 +1,11 @@
-package first_java.ch07_inheritatnce;
+package first_java.ch07;
 
 public class Employee extends Person{
     private String dept;
+
+    public Employee() {
+        System.out.println("Employee 생성자 실행!");
+    }
 
     public String getDept() {
         return dept;
