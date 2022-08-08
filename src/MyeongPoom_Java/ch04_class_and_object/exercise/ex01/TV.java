@@ -1,4 +1,4 @@
-package MyeongPoom_Java.ch04_class_and_object.exercise;
+package MyeongPoom_Java.ch04_class_and_object.exercise.ex01;
 
 public class TV {
     private String manufacturer;
