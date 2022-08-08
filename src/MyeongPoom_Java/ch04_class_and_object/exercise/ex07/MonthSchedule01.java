@@ -1,4 +1,4 @@
-package MyeongPoom_Java.ch04_class_and_object.exercise.ex7;
+package MyeongPoom_Java.ch04_class_and_object.exercise.ex07;
 
 import java.util.Scanner;
 
@@ -72,5 +72,10 @@ class MonthSchedule01 {
 
             return day;
         }
+    }
+
+    public static void main(String[] args) {
+        MonthSchedule01 april = new MonthSchedule01(30);
+        april.run();
     }
 }

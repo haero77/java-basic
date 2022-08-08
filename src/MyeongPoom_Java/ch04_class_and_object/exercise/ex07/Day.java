@@ -1,4 +1,4 @@
-package MyeongPoom_Java.ch04_class_and_object.exercise.ex7;
+package MyeongPoom_Java.ch04_class_and_object.exercise.ex07;
 
 // 실습 7번 - 한 달의 할 일 표현
 class Day {
