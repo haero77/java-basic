@@ -2,6 +2,7 @@ package MyeongPoom_Java.ch05_inheritance.example;
 
 class SuperObject {
     public void paint() {
+        System.out.println("SuperObject클래스의 draw() 호출됨");
         draw();
     }
 

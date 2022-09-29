@@ -1,9 +1,17 @@
-package First_Java.ch07_inheritance_and_interface;
+package First_Java.ch07_inheritance_and_interface.superEx;
 
-public class Employee extends Person{
+public class Employee extends Person {
     private String dept;
 
     public Employee() {
+        System.out.println("Employee 기본 생성자 실행!");
+    }
+
+    public Employee(String name, int age, String dept) {
+        // super(); // 컴파일러에 의해 자동으로 추가
+        super.setName(name);
+        super.setAge(age);
+        this.dept = dept;
         System.out.println("Employee 생성자 실행!");
     }
 

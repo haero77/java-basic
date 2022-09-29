@@ -1,4 +1,4 @@
-package First_Java.ch07_inheritance_and_interface;
+package First_Java.ch07_inheritance_and_interface.example;
 
 public class Student extends Person {
     private String major;

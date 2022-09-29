@@ -1,4 +1,4 @@
-package First_Java.ch07_inheritance_and_interface;
+package First_Java.ch07_inheritance_and_interface.superEx;
 
 public class Professor extends Person {
     private String subject;
