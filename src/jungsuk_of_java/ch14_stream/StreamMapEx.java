@@ -24,9 +24,11 @@ public class StreamMapEx {
         // 파일의 확장자만 대문자로 출력
         fileStream.map(File::getName) // Stream<File> -> Stream<String>. getName()이 String을 리턴하기 때문
                 .filter(filename -> filename.indexOf(".") != -1)
+                .peek(s -> System.out.printf("filename = %s%n", s))
                 .map(s -> s.substring(s.indexOf('.') + 1)) // 확장자만 추출
+                .peek(s -> System.out.printf("extension = %s%n", s))
                 .map(String::toUpperCase)
                 .distinct()
-                .forEach(filename -> System.out.print(filename + ", "));
+                .forEach(filename -> System.out.println(filename + ", "));
     }
 }
