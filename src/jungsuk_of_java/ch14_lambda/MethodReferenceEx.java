@@ -24,6 +24,9 @@ public class MethodReferenceEx {
         BiFunction<String, Integer, SampleClass2> sampleClass2SupplierByMethodReference = SampleClass2::new;
         System.out.println(sampleClass2SupplierByLambda.apply("샘플 이름", 27).name);
         System.out.println(sampleClass2SupplierByMethodReference.apply("샘플 이름", 35).age);
+
+//        Function<Integer, int[]> f = size -> new int[size];
+        Function<Integer, int[]> f = int[]::new;
     }
 }
 
