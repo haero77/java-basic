@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class StreamCreateEx {
+public class StreamCreationEx {
     public static void main(String[] args) {
         // 컬렉션을 소스로 하여 스트림을 생성
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5); //  가변인자
